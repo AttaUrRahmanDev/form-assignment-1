@@ -1,76 +1,78 @@
 body {
-    background: whitesmoke;
+  background: whitesmoke;
 }
-h1{
-    text-align: center;
-    color: black;
-    margin-top: 150px;
-    font-size: 35px;
-    margin-bottom: 30px;
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: 150px;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
-form{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* align-content: center; */
-    }
-input{
-    border-radius: 40px;
-    padding:25px;
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* align-content: center; */
+}
+input {
+  border-radius: 40px;
+  padding: 25px;
 
-width: 500px;
-border: none;
-outline: none;
-font-weight: bolder;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 500px;
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  font-family:
+    "Ubuntu", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 
-font-size: 20px;
+  font-size: 20px;
 }
 ::placeholder {
   color: lightgray;
-  opacity: 1; 
+  opacity: 1;
 }
 
-input:focus{
-    width: 520px;
-    transition: 1s;
-     
-
+input:focus {
+  width: 520px;
+  transition: 1s;
 }
-textarea{
-     border-radius: 40px;
-     font-weight: bold;
-     font-size: 20px;
-     
-    padding:30px;
-margin: 5px 5px;
-width: 500px;
-resize: vertical;
-min-height: 200px;
-border:none;
-outline:none;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-max-height: 350px;
+textarea {
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 20px;
 
-
-
+  padding: 30px;
+  margin: 5px 5px;
+  width: 500px;
+  resize: vertical;
+  min-height: 200px;
+  border: none;
+  outline: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  max-height: 350px;
 }
-textarea:focus{
-      width: 520px;
-    transition: 1s;
-     
-
+textarea:focus {
+  width: 520px;
+  transition: 1s;
 }
-button{
-    color: white;
-    background-color: lightskyblue;
-    padding: 20px;
-    border-radius: 20px;
-    width: 100px;
-    margin-top: 10px;
-
+button {
+  color: white;
+  background-color: lightskyblue;
+  padding: 20px;
+  border-radius: 20px;
+  width: 150px;
+  margin-top: 10px;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  /* align-items: center;
+    align-content: center; */
+  transition: width 1s;
 }
-button:hover{
-    width:150px;
-    transition: 1s;
+button:hover {
+  width: 200px;
+  /* transition: 1s; */
 }

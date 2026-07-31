@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=send" />
+<style>
+
+body{
+  font-family: "Ubuntu", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+</style>
   </head>
   <body>
     <header>
       <h1>Send Us A Messsage</h1>
     </header>
 
-    <form action="">
+    <form action="mailto:urrahmana04@gmail.com">
       <input
         type="text"
         name="name"
@@ -34,7 +57,9 @@
         required
       /><br />
       <textarea name="msg" id="msg" placeholder="Your Message"></textarea>
-      <button type="submit">Submit</button>
+      <button type="submit">Submit <span class="material-symbols-outlined">
+send
+</span></button>
     </form>
   </body>
 </html>
