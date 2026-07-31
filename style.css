@@ -1,0 +1,75 @@
+body {
+    background: whitesmoke;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: center; */
+}
+input{
+    border-radius: 40px;
+    padding:25px;
+margin: ;
+width: 500px;
+border: none;
+outline: none;
+font-weight: bolder;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+font-size: 20px;
+}
+::placeholder {
+  color: lightgray;
+  opacity: 1; 
+}
+
+input:focus{
+    width: 520px;
+    transition: 1s;
+     
+
+}
+textarea{
+     border-radius: 40px;
+     font-weight: bold;
+     font-size: 20px;
+     
+    padding:30px;
+margin: 5px 5px;
+width: 500px;
+resize: vertical;
+min-height: 200px;
+border:none;
+outline:none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+max-height: 350px;
+
+
+
+}
+textarea:focus{
+      width: 520px;
+    transition: 1s;
+     
+
+}
+button{
+    color: white;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100px;
+
+}
+button:hover{
+    width:150px;
+    transition: 1s;
+}
